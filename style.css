@@ -306,6 +306,16 @@ footer a {
         overflow: hidden;
     }
 
+    #aulas {
+        background-image:url('imagem/bg2.jpg');
+        height: auto;
+        width:auto;
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+        overflow:hidden;
+    }
+
     .banner
     .button {
         margin-top: 20px;
@@ -412,6 +422,16 @@ footer a {
         background-size: cover;
         background-position: center;
         overflow: hidden;
+    }
+
+    #aulas {
+        background-image:url('imagem/bg2.jpg');
+        height: auto;
+        width:auto;
+        background-size:cover;
+        background-position:center;
+        background-attachment: fixed;
+        overflow:hidden;
     }
 
     .banner
