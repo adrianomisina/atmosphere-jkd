@@ -41,7 +41,7 @@ body {
 
 .banner {
     background-image:url('imagem/bg.jpg');
-    height: 65vh;
+    height: 580px;
     width:100%;
     background-size:cover;
     background-position:center;
@@ -311,7 +311,7 @@ footer a {
         margin-top: 20px;
         margin-bottom: 17px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 10px;
         background-color: #b11a15;
         color: #ffffff;
         border-radius: 20px;
@@ -319,22 +319,33 @@ footer a {
         border: 1px solid #b11a15;
     }
 
+    .banner .slidearea {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgba(228, 227, 227, 0.5);
+    }
+
     .banner h1{
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 28px;
         margin-top: 10px;
     }
 
     .banner h1 span {
-        font-size: 36px;
+        font-size: 18px;
         margin-top: 10px;
         color: #b11a15b2;
     }
 
     .banner h2 {
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -392,7 +403,59 @@ footer a {
 
 /*Responsive for Tablet */
 
-@media (min-width:450px) and (max-width:992px) {
+@media (min-width:450px) and (max-width:990px) {
+
+    .banner {
+        background-image: url(imagem/bg.jpg);
+        height: auto;
+        width: auto;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+
+    .banner
+    .button {
+        margin-top: 20px;
+        margin-bottom: 17px;
+        text-decoration: none;
+        font-size: 10px;
+        background-color: #b11a15;
+        color: #ffffff;
+        border-radius: 20px;
+        padding: 10px 30px;
+        border: 1px solid #b11a15;
+    }
+
+    .banner .slidearea {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgba(228, 227, 227, 0.5);
+    }
+
+    .banner h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 38px;
+        margin-top: 10px;
+    }
+
+    .banner h1 span {
+        font-size: 20px;
+        margin-top: 10px;
+        color: #b11a15b2;
+    }
+
+    .banner h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
 
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0px;
