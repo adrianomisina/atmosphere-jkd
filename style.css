@@ -290,11 +290,24 @@ footer a {
     color:#8c8c8c;
 }
 
+.whatsapp {
+   
+    width: 50px;
+    top: 72%;
+    left: 1%;
+    padding: 10px;
+}
+
+.whatsup-botao a:hover {
+    text-decoration: none;
+    color:#af0701;
+}
+
 
 
 /*Mobile*/
 
-@media (max-width:450px) {
+@media(max-width:450px){
     
 
     .banner {
