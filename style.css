@@ -303,6 +303,12 @@ footer a {
     color:#af0701;
 }
 
+.termos-uso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*Mobile*/
@@ -528,5 +534,17 @@ footer a {
         height: auto;
         resize: none;
     }  
+
+    .termos-uso {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .politica-termos-copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
